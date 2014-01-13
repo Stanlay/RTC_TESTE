@@ -257,8 +257,8 @@ DateTime RTC_Millis::now() {
 // DS1307               SPARK CORE
 //--------------------------------------------------------------------
 // VCC                - Vin (5V only, does not work on 3.3)
-// Serial Clock (SCL) - D0 (needs 2.2k to 10k pull up resistor to Vin)
-// Serial Data  (SDA) - D1 (needs 2.2k to 10k pull up resistor to Vin)
+// Serial Clock (SCL) - D1 (needs 2.2k to 10k pull up resistor to Vin)
+// Serial Data  (SDA) - D0 (needs 2.2k to 10k pull up resistor to Vin)
 // Ground             - GND
 //--------------------------------------------------------------------
 
