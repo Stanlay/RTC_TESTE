@@ -3,6 +3,7 @@
 //===============================================//
 // Copy this into a new application at:          //
 // https://www.spark.io/build and go nuts!       //
+// !! Pinouts on line 254 below !!               //
 //-----------------------------------------------//
 // Technobly / BDub - Jan 12th 2014              //
 //===============================================//
