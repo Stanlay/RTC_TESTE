@@ -10,7 +10,7 @@
 #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
 #pragma GCC diagnostic ignored "-Wsequence-point"
 
-#define DS1307_ADDRESS 0xD0 // Switch back to 0x68 when I2C 7-bit addressing is fixed
+#define DS1307_ADDRESS 0x68
 #define SECONDS_PER_DAY 86400L
 #define SECONDS_FROM_1970_TO_2000 946684800
 
