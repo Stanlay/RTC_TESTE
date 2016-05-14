@@ -1,0 +1,7 @@
+{
+  "name": "ds1307",
+  "author": "JeeLabs, Technobly",
+  "license": "Public Domain",
+  "version": "0.0.1",
+  "description": "DS-1307 RTC library"
+}

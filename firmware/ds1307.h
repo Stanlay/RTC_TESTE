@@ -1,13 +1,12 @@
 #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
 #pragma GCC diagnostic ignored "-Wsequence-point"
 
+#ifndef DS1307_ADDRESS
+#define DS1307_ADDRESS 0x68
+#endif
 
 #define SECONDS_PER_DAY 86400L
 #define SECONDS_FROM_1970_TO_2000 946684800
-
-/* =========================== RTC.h =============================== */
-// Code by JeeLabs http://news.jeelabs.org/code/
-// Released to the public domain! Enjoy!
 
 // Simple general-purpose date/time class (no TZ / DST / leap second handling!)
 class DateTime {
@@ -25,7 +24,7 @@ public:
     uint8_t dayOfWeek() const;
 
     // 32-bit times as seconds since 1/1/2000
-    long secondstime() const;   
+    long secondstime() const;
     // 32-bit times as seconds since 1/1/1970
     uint32_t unixtime(void) const;
 

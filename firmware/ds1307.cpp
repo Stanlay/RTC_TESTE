@@ -1,5 +1,5 @@
 #include "application.h"
-#include "DS1307.h"
+#include "ds1307.h"
 
 const uint8_t daysInMonth[13] = {
   31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
@@ -76,7 +76,7 @@ static uint8_t conv2d(const char * p) {
 DateTime::DateTime (const char* date, const char* time) {
   // sample input: date = "Dec 26 2009", time = "12:34:56"
   yOff = conv2d(date + 9);
-  // Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 
+  // Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
   switch (date[0]) {
     case 'J': m = date[1] == 'a' ? 1 : m = date[2] == 'n' ? 6 : 7; break;
     case 'F': m = 2; break;

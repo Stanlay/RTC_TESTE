@@ -1,1 +1,1 @@
-# RTC DS1307 library for Spark Core
+# RTC DS1307 library for Spark/Particle Core
